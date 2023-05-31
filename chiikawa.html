@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="./img/favicon-32x32.png" sizes="32x32">
     <link rel="apple-touch-icon" href="./img/apple-icon-180x180.png" sizes="180x180">
-    
+
     <title>귀여운거</title>
     <style>
         @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap);
@@ -88,7 +88,17 @@
         </ul>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script>$(".tab").each(function (e, t) { $(".tab").eq(e).on("click", function () { $(".tab, .content").removeClass("select"), $(".tab").eq(e).addClass("select"), $(".content").eq(e).addClass("select") }) })</script>
+    <script>
+    
+        $(".tab").each(function (e, t) { 
+
+            $(".tab").eq(e).on("click", function () { 
+                $(".tab, .content").removeClass("select"), 
+                $(".tab").eq(e).addClass("select"), 
+                $(".content").eq(e).addClass("select") 
+            }) 
+        })  
+    </script>
 </body>
 
 </html>
